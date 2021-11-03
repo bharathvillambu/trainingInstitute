@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<title>STUDENT MENU</title>
+<style>
+h4 {
+	font-size: 45px;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+.dd {
+	text-align: center;
+}
+
+.botom {
+	margin-top: 500px;
+}
+
+.cpy {
+	margin-left: 636px;
+}
+
+.heading {
+	font-size: 40px;
+	margin-left: 490px;
+}
+
+.con {
+	margin-top: 7%;
+	background-color: rgba(140, 140, 140, 0.6);
+	height: 70vh;
+	width: 30vw;
+}
+
+body {
+	background: url("C:/Users/HARSH/Desktop/FCS/StudentBackground.jpg")
+		no-repeat center center fixed;
+	background-size: cover;
+}
+</style>
+<script type="text/javascript">
+	function yourMessage() {
+		alert("Redirecting To Homepage..");
+	}
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="index.jsp" onclick="yourMessage()">Home</a></li>
+				</ul>
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="heading cpy nav-item"><a class="nav-link active"
+						aria-current="page">Training Institute</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="con container-fluid">
+		<h5 style="color: black;">Student Page</h5>
+		<br> = <br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentViewInstituteServlet'">View
+			Institutes</button>
+		<br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentViewProfile.html'">View
+			My Profile</button>
+		<br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentUpdateForm.html'">Update
+			Profile</button>
+		<br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentSendRequest.html'">Send
+			Request</button>
+		<br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentViewResponseServlet'">View
+			Response</button>
+		<br>
+		<button class="btn btn-success d-block mx-auto"
+			onclick="window.location.href = 'StudentFeedbackForm.html'">Send Feedback</button>
+		<br>
+	</div>
+	<nav
+		class="botom navbar navbar-expand-lg navbar-light bg-warning fixed-bottom">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="cpy nav-item"><a class="nav-link active"
+						aria-current="page">Copyrights @2021</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</body>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>

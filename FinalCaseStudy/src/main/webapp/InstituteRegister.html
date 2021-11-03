@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="StudentRegisterStyle.css">
+<title>Register</title>
+<style>
+h4 {
+	font-size: 45px;
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+}
+
+.dd {
+	text-align: center;
+}
+.cpy {
+	margin-left: 636px;
+}
+.con{
+background-color: rgba(130,136,136,0.3);
+margin-top:60px;padding-bottom:30px;margin-left:-50px;width:40%;
+height:130vh;
+}
+body {
+	background: url("C:/Users/HARSH/Desktop/FCS/institute.jpg")
+		no-repeat center center fixed;
+	background-size: cover;
+}
+</style>
+<script type="text/javascript">
+	function yourMessage2() {
+		alert("Redirecting To Homepage..");
+	}
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light  bg-info fixed-top">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="index.jsp" onclick="yourMessage2()">HOME</a></li>
+				</ul>
+				<h4 style="margin-left:480px;">Training Institute</h4>
+			</div>
+		</div>
+	</nav>
+	<h5>Registering As New Institute</h5>
+	<form method="get" action="RegisterInstitute">
+		<div class="con container">
+		<div class="row">
+			<div class="form-group tx col-md-12">
+				<label for="InstituteID">Enter A User ID</label> <input type="text"
+					class="form-control" name="insid" required> <br>
+			</div>
+			<div class="form-group tx col-md-12">
+				<label for="InstituteName">Enter Your Name</label> <input
+					type="text" class="form-control" name="insname" required> <br>
+			</div>
+			<div class="form-group tx col-md-12">
+				<label for="Password">Enter Password</label> <input type="password"
+					class="form-control" name="inspass" required> <br>
+			</div>
+			<div class="form-group tx col-md-12">
+				<label for="InstituteAffiliationDate">Enter The Affiliation
+					Date</label> <input type="text" class="form-control" name="insdob" required>
+				<br>
+			</div>
+			<div class="form-group tx col-md-12">
+				<label for="InstituteLocation">Enter The Location</label> <input
+					type="text" class="form-control" name="inscity" required> <br>
+			</div>
+			<div class="form-group tx col-md-12">
+				<label for="InstituteMail">Enter Your Contact E-Mail</label> <input
+					type="text" class="form-control" name="insmail" required> <br>
+			</div>
+			<div class="form-group tx col-md-6">
+				<label for="Enter Number of Seats">Enter Number of Seats</label> <input
+					type="text" class="form-control" name="insseats" required>
+				<br>
+			</div>
+
+			<div class="form-group tx col-md-6">
+				<label for="NumberOfCourses">Enter Number of Courses</label> <input
+					type="text" class="form-control" name="inscourses" required>
+				<br>
+			</div>
+			</div>
+			<button class="btn btn-primary" style="margin-left:130px;width:280px;">Submit Data</button>
+		</div>
+	</form>
+	<nav class="navbar navbar-expand-lg navbar-light bg-info fixed-bottom">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="cpy nav-item"><a class="nav-link active"
+						aria-current="page">Copyrights @2021</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</body>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>

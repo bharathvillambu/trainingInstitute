@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="StudentRegisterStyle.css">
+<title>Register</title>
+<style>
+.botom {
+	margin-top: 1200px;
+}
+
+.cpy {
+	margin-left: 636px;
+}
+.heading{
+font-size:40px;
+margin-left:490px;
+}
+.con{
+margin-top:7%;
+background-color:rgba(140,140,140,0.6);
+height:170vh;
+width:30vw;
+}
+body{
+background:
+		url("C:/Users/HARSH/Desktop/FCS/StudentBackground.jpg")
+		no-repeat center center fixed;
+	background-size: cover;
+}
+</style>
+<script type="text/javascript">
+	function yourMessage2() {
+		alert("Redirecting To Homepage..");
+	}
+</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link active"
+						aria-current="page" href="index.jsp" onclick="yourMessage()">Home</a></li>
+				</ul>
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="heading cpy nav-item"><a class="nav-link active"
+						aria-current="page">Training Institute</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<form method="get" action="RegisterStudent2">
+		<div class="con container">
+			<h5 style="color:black;">Registering As New Student</h5>
+			<br>
+			<div class="form-group tx">
+				<label for="StudentID">Enter Student ID</label> <input type="text"
+					class="form-control" name="stid" required> <br>
+
+			</div>
+			<div class="form-group tx">
+				<label for="StudentDOB">Enter Your Date of Birth</label> <input
+					type="text" class="form-control" name="stdob" required> <br>
+
+			</div>
+			<div class="form-group tx">
+				<label for="StudentName">Enter Your Name</label> <input type="text"
+					class="form-control" name="stname" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentQualification">Enter Your Qualification</label> <input
+					type="text" class="form-control" name="stqual" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentAddress">Enter Your Address</label> <input
+					type="text" class="form-control" name="stadd" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentNumber">Enter Your Contact Number</label> <input
+					type="text" class="form-control" name="stnum" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentMail">Enter Your Contact E-Mail</label> <input
+					type="text" class="form-control" name="stmail" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentUID">Enter A UserID</label> <input type="text"
+					class="form-control" name="stuid" required> <br>
+			</div>
+			<div class="form-group tx">
+				<label for="StudentPassword">Enter A Password</label> <input
+					type="password" class="form-control" name="spass" required>
+				<br>
+			</div>
+			<button class="btn btn-outline-warning">Submit Data</button>
+		</div>
+	</form>
+	<nav
+		class="botom navbar navbar-expand-lg navbar-light bg-warning fixed-bottom">
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="cpy nav-item"><a class="nav-link active"
+						aria-current="page">Copyrights @2021</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</body>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>
